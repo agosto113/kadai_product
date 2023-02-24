@@ -1,0 +1,184 @@
+
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    padding-right: 40px;
+}
+
+ul{
+    justify-content:flex-end ;
+}
+
+
+
+.logo{
+    width: 880px;
+}
+
+.logo-div{
+    display: flex;
+    justify-content: center;
+}
+
+#header p{
+    text-align: center;
+}
+
+#header a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h2{
+    color: #3E5CDA;
+    font-family:'Futura-Boo';
+    text-align: center;
+    font-size: 53px;
+}
+
+#Introduction{
+    padding: 200px;
+}
+
+
+.up-introduction{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 80px;
+}
+
+#Introduction p{
+    padding: 20px 72px 0px 72px;
+    line-height:3ch
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.down-introduction{
+    display: flex;
+}
+
+.up-courses{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-self: center;
+}
+
+.up-courses img{
+    align-self: center;
+}
+
+.up-courses a{
+align-items: center;
+}
+
+
+.down-courses{
+    display: flex;
+    justify-content: center;
+}
+
+.down-courses img{
+align-self: center;
+}
+
+
+.down-courses a{
+    align-self: center;
+}
+
+.intro{
+    align-items: center;
+}
+
+#Introduction a{
+    padding: 8px 48px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.up-introduction a{
+    background-color: #3F5DDA;
+}
+
+.down-introduction a{
+    background-color: #FFC002;
+}
+
+
+
+.course{
+    padding: 42px 30px 54px ;
+    margin: 16px 9px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #28A9DF;
+    border-radius: 6px;
+}
+
+.course p{
+    align-self: center;
+    margin-top: 46px;
+    margin-bottom: 32px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.course a{
+    margin-top:20px;
+    padding: 12px 24px;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 12px;
+    align-self: center;
+}
+
+.course-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 120px;
+}
+
+.html a{
+    background-color:#F16629 ;
+}
+
+.css a{
+    background-color: #28A9DF;
+}
+
+.unity a{
+    background-color: #333333;
+}
+
+.ruby a{
+    background-color: #FF5252;
+}
+
+.javascript a{
+    background-color: #FFD700;
+}
+
+.swift a{
+    background-color: #FE7535;   
+}
+
+.go a{
+    background-color: #72CFDD;   
+}
+
