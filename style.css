@@ -5,15 +5,19 @@
 
 nav ul{
     display: flex;
+    align-items: flex-start;
 }
 
 nav li{
     list-style: none;
     padding-right: 40px;
+    align-items: flex-start;
 }
+
 
 ul{
     justify-content:flex-end ;
+    padding-right: 28px;
 }
 
 
@@ -29,11 +33,21 @@ ul{
 
 #header p{
     text-align: center;
+    color: white;
+    font-family: 'Futura-LigObl';
+    padding-top: 60px;
+    font-size: 48px;
 }
 
 #header a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 28px;
+    font-family: 'Futura-Boo';
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 48px 0px 120px;
 }
 
 .bg-slider {
@@ -41,6 +55,7 @@ ul{
 	height: 100vh;
 	background-position:center center;
 	background-size: cover;
+    display: flex;
 	align-items: center;
 	justify-content: center;
     margin: 0;
@@ -49,15 +64,22 @@ ul{
     position: center center;
 }
 
+.header-content{
+    width: 100vw;
+    height: 100vh;
+}
+
+
 h2{
     color: #3E5CDA;
     font-family:'Futura-Boo';
     text-align: center;
     font-size: 53px;
+    padding: 56px;
 }
 
 #Introduction{
-    padding: 200px;
+    padding: 0px 200px;
 }
 
 
@@ -65,11 +87,13 @@ h2{
     display: flex;
     flex-direction: row-reverse;
     padding-bottom: 80px;
+    align-items: flex-start;
 }
 
 #Introduction p{
-    padding: 20px 72px 0px 72px;
+    padding: 0px 72px 0px 72px;
     line-height:3ch
+    
 }
 
 .texts{
@@ -101,6 +125,7 @@ align-items: center;
 .down-courses{
     display: flex;
     justify-content: center;
+    padding-bottom: 40px;
 }
 
 .down-courses img{
@@ -125,21 +150,33 @@ align-self: center;
 
 .up-introduction a{
     background-color: #3F5DDA;
+    margin-top: 40px;
+
 }
 
 .down-introduction a{
     background-color: #FFC002;
+    margin-top: 16px;
 }
 
 
+.bg{
+    background-color: #D6E5F9;
+    width: 100%;
+    height: 100%;
+  }
 
+  #Courses{
+    margin-top: 80px;
+  }
+  
 .course{
     padding: 42px 30px 54px ;
     margin: 16px 9px;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #28A9DF;
+    background-color: #ffffff;
     border-radius: 6px;
 }
 
@@ -198,3 +235,32 @@ align-self: center;
     background-color: #72CFDD;   
 }
 
+#Images img{
+width: 200px;
+align-items: center;
+}
+
+.slider {
+    margin: 30px auto 0;
+    max-width: 500px;
+    width: 80%;
+  }
+  .slider li {
+    margin: 0 5px;
+  }
+  .slider img {
+    height: auto;
+    width: 100%;
+  }
+
+.map-wrap{
+text-align: center;
+padding-bottom: 40px;
+}
+
+.copyright{
+    text-align: center;
+    color: #3E5CDA;
+    font-family: 'Futura-Boo';
+    padding: 20px;
+}
