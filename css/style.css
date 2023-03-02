@@ -177,12 +177,10 @@ h2 {
     font-weight: bold;
 }
 
-
-/* .bg{
-    background-color: #D6E5F9;
-    width: 100%;
-    height: 100%;
-  } */
+.courses-inner {
+    position: relative;
+    z-index: 1;
+}
 
 #Courses {
     margin-top: 80px;
@@ -346,14 +344,15 @@ h2 {
 canvas {
     display: cover;
     vertical-align: bottom;
-    z-index: -1;
+    position: absolute;
+    top: 0;
 }
 
 
 
 /* ---- particles.js container ---- */
 #particles-js {
-    /* position:relative;  */
+    position: relative;
     width: 100vw;
     height: 100%;
     /* height: 250vh; */
@@ -362,6 +361,7 @@ canvas {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    z-index: -1;
 }
 
 .js-count-particles {
