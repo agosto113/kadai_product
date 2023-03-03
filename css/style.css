@@ -73,7 +73,9 @@ ul {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    padding: 48px 0px 120px;
+    margin-top: 20px;
+    padding: 28px 0px 20px;
+    transition: 0.5s;
 }
 
 #header a:hover {
@@ -278,6 +280,10 @@ h2 {
 }
 
 
+
+.course a:hover {
+    box-shadow: 0 2px 15px 2px rgba(100, 114, 117, 0.3);
+}
 
 
 
