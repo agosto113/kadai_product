@@ -600,7 +600,7 @@ canvas {
 
     .sliderimg {
         width: 80%;
-
+        height: auto;
     }
 
 
