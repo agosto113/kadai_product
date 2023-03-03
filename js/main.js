@@ -19,12 +19,13 @@ jQuery(function ($) {
         arrows: true,
         responsive: [
             {
-                breakpoint: 400, // 399px以下のサイズに適用
+                breakpoint: 480, // 399px以下のサイズに適用
                 settings: {
                     slidesToShow: 1,
                 },
             },
         ],
+        respondTo: 'slider',
     });
 
 
