@@ -521,14 +521,10 @@ canvas {
     .logo {
         width: 70vw;
         margin: auto;
-        display: flex;
-        justify-content: center;
     }
 
     #header {
         display: flex;
-        align-items: center;
-        justify-content: center;
         height: 100vh;
         position: relative;
     }
